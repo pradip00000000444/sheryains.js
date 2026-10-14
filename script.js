@@ -1,19 +1,14 @@
-function getGarde(score) {
-  if(score>= 90 && score <= 100) {
-    return 'A+';
-  }
-  else if(score >= 80 && score <= 89) {
-     return 'A';
-  } else if(score >=70 && score <= 79) {
-    return 'B';
-  } else if (score >= 60 && score <= 69) {
-    return 'C';
-  } else if(score >= 33 && score<=59) {
-    return 'D'; 
-  } else if (score>=0 && score <= 32) {
-    return "fale"; 
-  } else {
-    console.log("invalid input");
-  }
-} 
-console.log(getGarde(50));
+let day=2; 
+switch (day) { 
+  case 1: 
+  console.log("sunday");
+  break; 
+  case 2: 
+  console.log("monday");
+  break;
+  case 3:
+    console.log("tuesday");
+   break; 
+   default: 
+   console.log("invalid date"); 
+}
